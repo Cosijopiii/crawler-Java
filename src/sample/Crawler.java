@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 public class Crawler{
     public static void main(String[] args) throws Exception{
     String urls[] = new String[10000];
-    String url = "http://thestudio.kr/2319";
+    String url = "";
     int i=0,j=0,tmp=0,total=0, MAX = 10000;
     int start=0, end=0;
     String webpage = Web.getWeb(url);
